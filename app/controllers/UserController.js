@@ -24,7 +24,7 @@ var userController = (function() {
 	}
 
  	UserController.prototype.get = function(req, res){
-	    var response = responseUtils.get(200, req.user, 'User', false);
+	    var response = responseUtils.get(200, req.sender, 'User', false);
 	    res.send(response);
  	}
 
