@@ -1,0 +1,198 @@
+2013-11-08T21:39:37.968Z - info: Connecting to the mongoose db
+2013-11-08T21:40:36.629Z - info: Connecting to the mongoose db
+2013-11-08T21:42:46.770Z - info: Connecting to the mongoose db
+2013-11-08T21:44:37.877Z - info: Connecting to the mongoose db
+2013-11-08T21:46:01.010Z - info: Connecting to the mongoose db
+2013-11-08T21:46:01.347Z - info: Enter UserController constructor
+2013-11-08T21:46:01.364Z - info: Express app started on port 8000
+2013-11-08T22:04:24.508Z - info: Connecting to the mongoose db
+2013-11-08T22:04:24.908Z - info: Enter UserController constructor
+2013-11-08T22:04:24.923Z - info: Express app started on port 8000
+2013-11-08T22:05:27.285Z - info: Connecting to the mongoose db
+2013-11-08T22:05:27.574Z - info: Enter UserController constructor
+2013-11-08T22:05:27.589Z - info: Express app started on port 8000
+2013-11-08T22:06:31.528Z - info: Connecting to the mongoose db
+2013-11-08T22:06:31.823Z - info: Enter UserController constructor
+2013-11-08T22:06:31.838Z - info: Express app started on port 8000
+2013-11-08T22:07:12.320Z - info: Connecting to the mongoose db
+2013-11-08T22:07:12.595Z - info: Enter UserController constructor
+2013-11-08T22:07:12.609Z - info: Express app started on port 8000
+2013-11-08T22:08:19.298Z - info: Connecting to the mongoose db
+2013-11-08T22:08:19.587Z - info: Enter UserController constructor
+2013-11-08T22:08:19.603Z - info: Express app started on port 8000
+2013-11-08T22:09:18.729Z - info: creating new user
+2013-11-08T22:09:50.709Z - info: Connecting to the mongoose db
+2013-11-08T22:09:51.003Z - info: Enter UserController constructor
+2013-11-08T22:09:51.019Z - info: Express app started on port 8000
+2013-11-08T22:09:54.626Z - info: creating new user
+2013-11-08T22:13:41.823Z - info: Connecting to the mongoose db
+2013-11-08T22:13:42.103Z - info: Enter UserController constructor
+2013-11-08T22:13:42.119Z - info: Express app started on port 8000
+2013-11-08T22:13:46.715Z - info: creating new user
+2013-11-08T22:14:34.434Z - info: creating new user
+2013-11-08T22:15:28.763Z - info: creating new user
+2013-11-08T22:16:31.609Z - info: creating new user
+2013-11-08T22:26:34.012Z - info: Connecting to the mongoose db
+2013-11-08T22:26:34.328Z - info: Enter UserController constructor
+2013-11-08T22:26:34.347Z - info: Express app started on port 8000
+2013-11-08T22:29:38.162Z - info: Connecting to the mongoose db
+2013-11-08T22:29:38.446Z - info: Enter UserController constructor
+2013-11-08T22:29:38.461Z - info: Express app started on port 8000
+2013-11-08T22:33:36.331Z - info: Connecting to the mongoose db
+2013-11-08T22:33:36.651Z - info: Enter UserController constructor
+2013-11-08T22:33:36.667Z - info: Express app started on port 8000
+2013-11-08T22:35:58.566Z - info: Connecting to the mongoose db
+2013-11-08T22:35:58.850Z - info: Enter UserController constructor
+2013-11-08T22:35:58.869Z - info: Express app started on port 8000
+2013-11-08T22:36:03.142Z - info: creating message object
+2013-11-08T22:38:42.043Z - info: Connecting to the mongoose db
+2013-11-08T22:38:42.331Z - info: Enter UserController constructor
+2013-11-08T22:38:42.347Z - info: Express app started on port 8000
+2013-11-08T22:38:46.259Z - info: creating message object
+2013-11-08T22:39:05.021Z - info: Connecting to the mongoose db
+2013-11-08T22:39:05.299Z - info: Enter UserController constructor
+2013-11-08T22:39:05.315Z - info: Express app started on port 8000
+2013-11-08T22:39:08.133Z - info: creating message object
+2013-11-08T22:43:03.055Z - info: Connecting to the mongoose db
+2013-11-08T22:43:03.331Z - info: Enter UserController constructor
+2013-11-08T22:43:03.347Z - info: Express app started on port 8000
+2013-11-08T22:43:07.345Z - info: creating message object
+2013-11-10T03:03:16.322Z - info: Connecting to the mongoose db
+2013-11-10T03:03:16.682Z - info: Enter UserController constructor
+2013-11-10T03:03:16.730Z - info: Express app started on port 8000
+2013-11-10T03:03:27.280Z - info: Connecting to the mongoose db
+2013-11-10T03:03:27.555Z - info: Enter UserController constructor
+2013-11-10T03:03:27.569Z - info: Express app started on port 8000
+2013-11-10T03:04:41.290Z - info: creating message object
+2013-11-10T03:05:04.696Z - info: creating message object
+2013-11-10T03:05:30.543Z - info: creating message object
+2013-11-10T03:06:10.998Z - info: Connecting to the mongoose db
+2013-11-10T03:06:11.276Z - info: Enter UserController constructor
+2013-11-10T03:06:11.290Z - info: Express app started on port 8000
+2013-11-10T03:06:41.101Z - info: creating message object
+2013-11-10T03:07:01.568Z - info: creating message object
+2013-11-10T03:07:51.250Z - info: Connecting to the mongoose db
+2013-11-10T03:07:51.524Z - info: Enter UserController constructor
+2013-11-10T03:07:51.538Z - info: Express app started on port 8000
+2013-11-10T03:07:57.523Z - info: creating message object
+2013-11-10T03:08:19.915Z - info: Connecting to the mongoose db
+2013-11-10T03:08:20.192Z - info: Enter UserController constructor
+2013-11-10T03:08:20.206Z - info: Express app started on port 8000
+2013-11-10T03:08:24.130Z - info: creating message object
+2013-11-10T03:11:50.738Z - info: Connecting to the mongoose db
+2013-11-10T03:11:51.012Z - info: Enter UserController constructor
+2013-11-10T03:11:51.026Z - info: Express app started on port 8000
+2013-11-10T03:11:57.399Z - info: creating message object sender : undefined receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:12:59.165Z - info: Connecting to the mongoose db
+2013-11-10T03:12:59.439Z - info: Enter UserController constructor
+2013-11-10T03:12:59.453Z - info: Express app started on port 8000
+2013-11-10T03:13:22.814Z - info: Connecting to the mongoose db
+2013-11-10T03:13:23.089Z - info: Enter UserController constructor
+2013-11-10T03:13:23.102Z - info: Express app started on port 8000
+2013-11-10T03:13:26.814Z - info: sending user : undefined
+2013-11-10T03:13:26.818Z - info: creating message object sender : undefined receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:14:07.387Z - info: Connecting to the mongoose db
+2013-11-10T03:14:07.665Z - info: Enter UserController constructor
+2013-11-10T03:14:07.679Z - info: Express app started on port 8000
+2013-11-10T03:14:10.849Z - info: sending user : [{"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","__v":0,"devices":[],"messages":[]}]
+2013-11-10T03:14:10.853Z - info: creating message object sender : undefined receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:14:33.961Z - info: Connecting to the mongoose db
+2013-11-10T03:14:34.235Z - info: Enter UserController constructor
+2013-11-10T03:14:34.249Z - info: Express app started on port 8000
+2013-11-10T03:14:38.593Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","__v":0,"devices":[],"messages":[]}
+2013-11-10T03:14:38.596Z - info: creating message object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:21:27.353Z - info: Connecting to the mongoose db
+2013-11-10T03:21:27.633Z - info: Enter UserController constructor
+2013-11-10T03:21:27.646Z - info: Express app started on port 8000
+2013-11-10T03:21:32.786Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","__v":0,"devices":[],"messages":[]}
+2013-11-10T03:21:32.789Z - info: creating message object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:27:03.102Z - info: Connecting to the mongoose db
+2013-11-10T03:27:03.377Z - info: Enter UserController constructor
+2013-11-10T03:27:03.390Z - info: Express app started on port 8000
+2013-11-10T03:27:10.563Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","__v":0,"devices":[],"messages":[]}
+2013-11-10T03:27:10.566Z - info: creating message object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:28:11.657Z - info: Connecting to the mongoose db
+2013-11-10T03:28:11.936Z - info: Enter UserController constructor
+2013-11-10T03:28:11.949Z - info: Express app started on port 8000
+2013-11-10T03:28:18.344Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","__v":0,"devices":[],"messages":[]}
+2013-11-10T03:28:18.347Z - info: creating message object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T03:29:00.424Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","__v":0,"devices":[],"messages":[]}
+2013-11-10T03:29:00.425Z - info: creating message object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:11:17.235Z - info: Connecting to the mongoose db
+2013-11-10T19:11:18.008Z - info: Enter UserController constructor
+2013-11-10T19:11:18.082Z - info: Express app started on port 8000
+2013-11-10T19:11:25.573Z - info: Connecting to the mongoose db
+2013-11-10T19:11:25.849Z - info: Enter UserController constructor
+2013-11-10T19:11:25.862Z - info: Express app started on port 8000
+2013-11-10T19:11:58.066Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:12:23.753Z - info: Connecting to the mongoose db
+2013-11-10T19:12:24.032Z - info: Enter UserController constructor
+2013-11-10T19:12:24.045Z - info: Express app started on port 8000
+2013-11-10T19:13:05.850Z - info: Connecting to the mongoose db
+2013-11-10T19:13:06.720Z - info: Enter UserController constructor
+2013-11-10T19:13:06.763Z - info: Express app started on port 8000
+2013-11-10T19:13:10.174Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:13:37.137Z - info: Connecting to the mongoose db
+2013-11-10T19:13:38.007Z - info: Enter UserController constructor
+2013-11-10T19:14:06.296Z - info: Connecting to the mongoose db
+2013-11-10T19:14:07.175Z - info: Enter UserController constructor
+2013-11-10T19:14:07.222Z - info: Express app started on port 8000
+2013-11-10T19:14:10.229Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:14:10.231Z - info: posting new conversations
+2013-11-10T19:16:59.302Z - info: Connecting to the mongoose db
+2013-11-10T19:16:59.586Z - info: Enter UserController constructor
+2013-11-10T19:16:59.601Z - info: Express app started on port 8000
+2013-11-10T19:17:03.108Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:17:03.109Z - info: posting new conversations
+2013-11-10T19:17:03.112Z - info: creating conversation object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:17:24.460Z - info: Connecting to the mongoose db
+2013-11-10T19:17:24.735Z - info: Enter UserController constructor
+2013-11-10T19:17:24.750Z - info: Express app started on port 8000
+2013-11-10T19:17:27.412Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:17:27.413Z - info: posting new conversations
+2013-11-10T19:17:27.416Z - info: creating conversation object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:18:09.150Z - info: Connecting to the mongoose db
+2013-11-10T19:18:09.424Z - info: Enter UserController constructor
+2013-11-10T19:18:09.439Z - info: Express app started on port 8000
+2013-11-10T19:18:11.628Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:18:11.628Z - info: posting new conversations
+2013-11-10T19:18:11.631Z - info: creating conversation object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:18:11.646Z - info: creating conversation object{"__v":1,"_id":"527fdbf3dc5e900000000004","participants":[],"messages":[{"_id":"527fdbf3dc5e900000000005","messageReceiver":"527d62bfbe61fce8e4000005","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message4 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:18:11.642Z","createdAt":"2013-11-10T19:18:11.639Z","__v":0}]}
+2013-11-10T19:19:18.392Z - info: Connecting to the mongoose db
+2013-11-10T19:19:18.669Z - info: Enter UserController constructor
+2013-11-10T19:19:18.685Z - info: Express app started on port 8000
+2013-11-10T19:19:21.525Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:19:21.526Z - info: posting new conversations
+2013-11-10T19:19:21.529Z - info: creating conversation object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:19:34.703Z - info: Connecting to the mongoose db
+2013-11-10T19:19:34.982Z - info: Enter UserController constructor
+2013-11-10T19:19:34.997Z - info: Express app started on port 8000
+2013-11-10T19:19:39.387Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:19:39.387Z - info: posting new conversations
+2013-11-10T19:19:39.389Z - info: creating conversation object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:19:39.406Z - info: creating conversation object{"__v":1,"_id":"527fdc4bb6c9e20000000004","participants":[{"__v":0,"_id":"527d62bfbe61fce8e4000005","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"527d624abe61fce8e4000003","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"527fdc4bb6c9e20000000005","messageReceiver":"527d62bfbe61fce8e4000005","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message4 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:19:39.402Z","createdAt":"2013-11-10T19:19:39.397Z","__v":0}]}
+2013-11-10T19:22:07.299Z - info: Connecting to the mongoose db
+2013-11-10T19:22:07.579Z - info: Enter UserController constructor
+2013-11-10T19:22:07.595Z - info: Express app started on port 8000
+2013-11-10T19:29:08.263Z - info: Connecting to the mongoose db
+2013-11-10T19:29:08.540Z - info: Enter UserController constructor
+2013-11-10T19:29:08.556Z - info: Express app started on port 8000
+2013-11-10T19:29:15.884Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:29:15.884Z - info: posting new conversations
+2013-11-10T19:29:15.887Z - info: creating conversation object sender : 527d624abe61fce8e4000003 receiver: 527d62bfbe61fce8e4000005
+2013-11-10T19:29:15.905Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-10T19:29:15.889Z","updatedAt":"2013-11-10T19:29:15.900Z","_id":"527fde8b58783a0000000004","participants":[{"__v":0,"_id":"527d62bfbe61fce8e4000005","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"527d624abe61fce8e4000003","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"527fde8b58783a0000000005","messageReceiver":"527d62bfbe61fce8e4000005","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message4 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:29:15.900Z","createdAt":"2013-11-10T19:29:15.896Z","__v":0}]}
+2013-11-10T19:30:21.715Z - info: Connecting to the mongoose db
+2013-11-10T19:30:21.992Z - info: Enter UserController constructor
+2013-11-10T19:30:22.006Z - info: Express app started on port 8000
+2013-11-10T19:30:40.794Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:30:54.647Z - info: Connecting to the mongoose db
+2013-11-10T19:30:54.925Z - info: Enter UserController constructor
+2013-11-10T19:30:54.941Z - info: Express app started on port 8000
+2013-11-10T19:30:58.238Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:31:59.435Z - info: Connecting to the mongoose db
+2013-11-10T19:31:59.713Z - info: Enter UserController constructor
+2013-11-10T19:31:59.727Z - info: Express app started on port 8000
+2013-11-10T19:32:03.305Z - info: sending user : {"phoneNumber":"8058074293","_id":"527d624abe61fce8e4000003","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:32:03.326Z - info: creating conversation object{"__v":2,"_id":"527fde8b58783a0000000004","createdAt":"2013-11-10T19:29:15.889Z","updatedAt":"2013-11-10T19:32:03.320Z","participants":[{"__v":0,"_id":"527d62bfbe61fce8e4000005","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"527d624abe61fce8e4000003","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"527fde8b58783a0000000005","messageReceiver":"527d62bfbe61fce8e4000005","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message4 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:32:03.319Z","createdAt":"2013-11-10T19:29:15.896Z","__v":0},{"_id":"527fdf3337fe900000000004","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message 5 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:32:03.320Z","createdAt":"2013-11-10T19:32:03.313Z","__v":0}]}
+2013-11-10T19:32:29.777Z - info: sending user : {"phoneNumber":"5185882891","_id":"527d62bfbe61fce8e4000005","messages":[],"__v":0,"devices":[],"conversations":[]}
+2013-11-10T19:32:29.786Z - info: creating conversation object{"__v":3,"_id":"527fde8b58783a0000000004","createdAt":"2013-11-10T19:29:15.889Z","updatedAt":"2013-11-10T19:32:29.782Z","participants":[{"__v":0,"_id":"527d62bfbe61fce8e4000005","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"527d624abe61fce8e4000003","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"527fde8b58783a0000000005","messageReceiver":"527d62bfbe61fce8e4000005","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message4 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:32:29.782Z","createdAt":"2013-11-10T19:29:15.896Z","__v":0},{"_id":"527fdf3337fe900000000004","messageSender":"527d624abe61fce8e4000003","messageContent":"Test message 5 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:32:29.782Z","createdAt":"2013-11-10T19:32:03.313Z","__v":0},{"_id":"527fdf4d37fe900000000005","messageSender":"527d62bfbe61fce8e4000005","messageContent":"Test message 5 from 8058074293 to 5185882891","updatedAt":"2013-11-10T19:32:29.782Z","createdAt":"2013-11-10T19:32:29.780Z","__v":0}]}
