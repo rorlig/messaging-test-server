@@ -49,7 +49,7 @@ var userController = (function() {
 					 user = new User({"phoneNumber": phoneNumber});
 			         user.save();
 		        }
-		        var response = responseUtils.get(200, user , 'Error', false);
+		        var response = responseUtils.get(200, user , 'User', false);
 		        res.send(response);
 
 

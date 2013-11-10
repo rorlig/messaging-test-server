@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6fa865d-8a4e-4789-9f0a-6c384aee04f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.js" afterPath="$PROJECT_DIR$/app/controllers/UserController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/debug.log" afterPath="$PROJECT_DIR$/logs/debug.log" />
     </list>
     <ignored path="messaging-test-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +100,7 @@
       <file leaf-file-name="UserController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="513" selection-end="513" vertical-scroll-proportion="0.39783" vertical-offset="20" max-vertical-offset="3450">
+            <state line="51" column="66" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.77757686" vertical-offset="290" max-vertical-offset="3450">
               <folding />
             </state>
           </provider>
@@ -741,12 +740,12 @@
       <created>1383945010627</created>
       <updated>1383945010627</updated>
       <workItem from="1384038084246" duration="64000" />
-      <workItem from="1384038266795" duration="12608000" />
+      <workItem from="1384038266795" duration="12800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12672000" />
+    <option name="totallyTimeSpent" value="12864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="698" extended-state="6" />
@@ -992,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="513" selection-end="513" vertical-scroll-proportion="0.39783" vertical-offset="20" max-vertical-offset="3450">
+        <state line="51" column="66" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.77757686" vertical-offset="290" max-vertical-offset="3450">
           <folding />
         </state>
       </provider>
