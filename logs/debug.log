@@ -252,3 +252,143 @@
 2013-11-12T06:39:31.484Z - info: Enter UserController constructor
 2013-11-12T06:39:31.498Z - info: Express app started on port 8000
 2013-11-12T06:40:01.723Z - info: sending user : {"__v":3,"_id":"5281cc9cf580f32f1e000009","phoneNumber":"8058074293","devices":[],"conversations":[{"__v":1,"_id":"5281cce165a296ac1e000004","createdAt":"2013-11-12T06:38:25.966Z","updatedAt":"2013-11-12T06:38:25.982Z","participants":[{"phoneNumber":"5185882891","_id":"5281cc93f580f32f1e000008","__v":1,"devices":[],"conversations":["5281cca3f580f32f1e00000a","5281cce165a296ac1e000004"]},{"__v":0,"_id":"5281cc9cf580f32f1e000009","phoneNumber":"8058074293","devices":[],"conversations":["5281cce165a296ac1e000004"]}],"messages":[{"_id":"5281cce165a296ac1e000005","messageReceiver":"5281cc93f580f32f1e000008","messageSender":"5281cc9cf580f32f1e000009","messageContent":"Test message 10 from 8058074293 to 5185882891","updatedAt":"2013-11-12T06:38:25.978Z","createdAt":"2013-11-12T06:38:25.973Z","__v":0}]},{"__v":1,"_id":"5281ccee65a296ac1e000006","createdAt":"2013-11-12T06:38:38.915Z","updatedAt":"2013-11-12T06:38:38.922Z","participants":[{"phoneNumber":"5185882891","_id":"5281cc93f580f32f1e000008","__v":2,"devices":[],"conversations":["5281cca3f580f32f1e00000a","5281cce165a296ac1e000004","5281ccee65a296ac1e000006"]},{"phoneNumber":"8058074293","_id":"5281cc9cf580f32f1e000009","__v":1,"devices":[],"conversations":["5281cce165a296ac1e000004","5281ccee65a296ac1e000006"]}],"messages":[{"_id":"5281ccee65a296ac1e000007","messageReceiver":"5281cc93f580f32f1e000008","messageSender":"5281cc9cf580f32f1e000009","messageContent":"Test message 10 from 8058074293 to 5185882891","updatedAt":"2013-11-12T06:38:38.920Z","createdAt":"2013-11-12T06:38:38.916Z","__v":0}]},{"__v":1,"_id":"5281ccf365a296ac1e000008","createdAt":"2013-11-12T06:38:43.409Z","updatedAt":"2013-11-12T06:38:43.416Z","participants":[{"phoneNumber":"5185882891","_id":"5281cc93f580f32f1e000008","__v":3,"devices":[],"conversations":["5281cca3f580f32f1e00000a","5281cce165a296ac1e000004","5281ccee65a296ac1e000006","5281ccf365a296ac1e000008"]},{"phoneNumber":"8058074293","_id":"5281cc9cf580f32f1e000009","__v":2,"devices":[],"conversations":["5281cce165a296ac1e000004","5281ccee65a296ac1e000006","5281ccf365a296ac1e000008"]}],"messages":[{"_id":"5281ccf365a296ac1e000009","messageReceiver":"5281cc93f580f32f1e000008","messageSender":"5281cc9cf580f32f1e000009","messageContent":"Test message 10 from 8058074293 to 5185882891","updatedAt":"2013-11-12T06:38:43.413Z","createdAt":"2013-11-12T06:38:43.410Z","__v":0}]}]}
+2013-11-12T21:04:06.297Z - info: Connecting to the mongoose db
+2013-11-12T21:04:07.443Z - info: Enter UserController constructor
+2013-11-12T21:04:07.573Z - info: Express app started on port 8000
+2013-11-12T21:07:01.648Z - info: Connecting to the mongoose db
+2013-11-12T21:07:01.924Z - info: Enter UserController constructor
+2013-11-12T21:07:01.939Z - info: Express app started on port 8000
+2013-11-12T21:07:35.008Z - info: sending user : {"__v":3,"_id":"5281cc9cf580f32f1e000009","phoneNumber":"8058074293","devices":[],"conversations":[{"__v":1,"_id":"5281cce165a296ac1e000004","createdAt":"2013-11-12T06:38:25.966Z","updatedAt":"2013-11-12T06:38:25.982Z","participants":[{"phoneNumber":"5185882891","_id":"5281cc93f580f32f1e000008","__v":1,"devices":[],"conversations":["5281cca3f580f32f1e00000a","5281cce165a296ac1e000004"]},{"__v":0,"_id":"5281cc9cf580f32f1e000009","phoneNumber":"8058074293","devices":[],"conversations":["5281cce165a296ac1e000004"]}],"messages":[{"_id":"5281cce165a296ac1e000005","messageReceiver":"5281cc93f580f32f1e000008","messageSender":"5281cc9cf580f32f1e000009","messageContent":"Test message 10 from 8058074293 to 5185882891","updatedAt":"2013-11-12T06:38:25.978Z","createdAt":"2013-11-12T06:38:25.973Z","__v":0}]},{"__v":1,"_id":"5281ccee65a296ac1e000006","createdAt":"2013-11-12T06:38:38.915Z","updatedAt":"2013-11-12T06:38:38.922Z","participants":[{"phoneNumber":"5185882891","_id":"5281cc93f580f32f1e000008","__v":2,"devices":[],"conversations":["5281cca3f580f32f1e00000a","5281cce165a296ac1e000004","5281ccee65a296ac1e000006"]},{"phoneNumber":"8058074293","_id":"5281cc9cf580f32f1e000009","__v":1,"devices":[],"conversations":["5281cce165a296ac1e000004","5281ccee65a296ac1e000006"]}],"messages":[{"_id":"5281ccee65a296ac1e000007","messageReceiver":"5281cc93f580f32f1e000008","messageSender":"5281cc9cf580f32f1e000009","messageContent":"Test message 10 from 8058074293 to 5185882891","updatedAt":"2013-11-12T06:38:38.920Z","createdAt":"2013-11-12T06:38:38.916Z","__v":0}]},{"__v":1,"_id":"5281ccf365a296ac1e000008","createdAt":"2013-11-12T06:38:43.409Z","updatedAt":"2013-11-12T06:38:43.416Z","participants":[{"phoneNumber":"5185882891","_id":"5281cc93f580f32f1e000008","__v":3,"devices":[],"conversations":["5281cca3f580f32f1e00000a","5281cce165a296ac1e000004","5281ccee65a296ac1e000006","5281ccf365a296ac1e000008"]},{"phoneNumber":"8058074293","_id":"5281cc9cf580f32f1e000009","__v":2,"devices":[],"conversations":["5281cce165a296ac1e000004","5281ccee65a296ac1e000006","5281ccf365a296ac1e000008"]}],"messages":[{"_id":"5281ccf365a296ac1e000009","messageReceiver":"5281cc93f580f32f1e000008","messageSender":"5281cc9cf580f32f1e000009","messageContent":"Test message 10 from 8058074293 to 5185882891","updatedAt":"2013-11-12T06:38:43.413Z","createdAt":"2013-11-12T06:38:43.410Z","__v":0}]}]}
+2013-11-12T21:23:28.409Z - info: Connecting to the mongoose db
+2013-11-12T21:23:28.702Z - info: Enter UserController constructor
+2013-11-12T21:23:28.716Z - info: Express app started on port 8000
+2013-11-12T21:24:24.973Z - info: creating new user
+2013-11-12T21:24:31.545Z - info: creating new user
+2013-11-12T21:24:41.958Z - info: sending user : {"phoneNumber":"8058074293","_id":"52829c884642929055000004","__v":0,"devices":[],"conversations":[]}
+2013-11-12T21:24:41.958Z - info: posting new conversations
+2013-11-12T21:24:41.960Z - info: creating conversation object sender : 52829c884642929055000004 receiver: 52829c8f4642929055000005
+2013-11-12T21:25:03.209Z - info: Connecting to the mongoose db
+2013-11-12T21:25:03.512Z - info: Enter UserController constructor
+2013-11-12T21:25:03.528Z - info: Express app started on port 8000
+2013-11-12T21:25:08.337Z - info: sending user : {"__v":1,"_id":"52829c884642929055000004","phoneNumber":"8058074293","devices":[],"conversations":[{"__v":1,"_id":"52829c994642929055000006","createdAt":"2013-11-12T21:24:41.962Z","updatedAt":"2013-11-12T21:24:41.977Z","participants":[{"__v":0,"_id":"52829c8f4642929055000005","phoneNumber":"5185882891","devices":[],"conversations":["52829c994642929055000006"]},{"__v":0,"_id":"52829c884642929055000004","phoneNumber":"8058074293","devices":[],"conversations":["52829c994642929055000006"]}],"messages":[{"_id":"52829c994642929055000007","messageReceiver":"5185882891","messageSender":"8058074293","messageReceiverId":"52829c8f4642929055000005","messageSenderId":"52829c884642929055000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T21:24:41.971Z","createdAt":"2013-11-12T21:24:41.965Z","__v":0}]}]}
+2013-11-12T21:25:08.337Z - info: posting new conversations
+2013-11-12T21:25:08.339Z - info: creating conversation object sender : 52829c884642929055000004 receiver: 52829c8f4642929055000005
+2013-11-12T21:25:25.512Z - info: Connecting to the mongoose db
+2013-11-12T21:25:25.790Z - info: Enter UserController constructor
+2013-11-12T21:25:25.807Z - info: Express app started on port 8000
+2013-11-12T21:25:28.941Z - info: sending user : {"__v":2,"_id":"52829c884642929055000004","phoneNumber":"8058074293","devices":[],"conversations":[{"__v":1,"_id":"52829c994642929055000006","createdAt":"2013-11-12T21:24:41.962Z","updatedAt":"2013-11-12T21:24:41.977Z","participants":[{"__v":0,"_id":"52829c8f4642929055000005","phoneNumber":"5185882891","devices":[],"conversations":["52829c994642929055000006"]},{"__v":0,"_id":"52829c884642929055000004","phoneNumber":"8058074293","devices":[],"conversations":["52829c994642929055000006"]}],"messages":[{"_id":"52829c994642929055000007","messageReceiver":"5185882891","messageSender":"8058074293","messageReceiverId":"52829c8f4642929055000005","messageSenderId":"52829c884642929055000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T21:24:41.971Z","createdAt":"2013-11-12T21:24:41.965Z","__v":0}]},{"__v":1,"_id":"52829cb4d9f0861056000004","createdAt":"2013-11-12T21:25:08.341Z","updatedAt":"2013-11-12T21:25:08.358Z","participants":[{"phoneNumber":"5185882891","_id":"52829c8f4642929055000005","__v":1,"devices":[],"conversations":["52829c994642929055000006","52829cb4d9f0861056000004"]},{"phoneNumber":"8058074293","_id":"52829c884642929055000004","__v":1,"devices":[],"conversations":["52829c994642929055000006","52829cb4d9f0861056000004"]}],"messages":[{"_id":"52829cb4d9f0861056000005","messageReceiver":"5185882891","messageSender":"8058074293","messageReceiverId":"52829c8f4642929055000005","messageSenderId":"52829c884642929055000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T21:25:08.354Z","createdAt":"2013-11-12T21:25:08.349Z","__v":0}]}]}
+2013-11-12T21:25:28.941Z - info: posting new conversations
+2013-11-12T21:25:28.943Z - info: creating conversation object sender : 52829c884642929055000004 receiver: 52829c8f4642929055000005
+2013-11-12T21:30:21.255Z - info: Connecting to the mongoose db
+2013-11-12T21:30:21.567Z - info: Enter UserController constructor
+2013-11-12T21:30:21.582Z - info: Express app started on port 8000
+2013-11-12T21:30:28.819Z - info: posting new conversations
+2013-11-12T21:30:28.822Z - info: creating conversation object sender : 52829c884642929055000004 receiver: 52829c8f4642929055000005
+2013-11-12T21:30:55.292Z - info: Connecting to the mongoose db
+2013-11-12T21:30:55.584Z - info: Enter UserController constructor
+2013-11-12T21:30:55.603Z - info: Express app started on port 8000
+2013-11-12T21:31:00.669Z - info: posting new conversations
+2013-11-12T21:31:00.671Z - info: creating conversation object sender : 52829c884642929055000004 receiver: 52829c8f4642929055000005
+2013-11-12T21:32:56.225Z - info: Connecting to the mongoose db
+2013-11-12T21:32:56.507Z - info: Enter UserController constructor
+2013-11-12T21:32:56.522Z - info: Express app started on port 8000
+2013-11-12T21:33:00.207Z - info: creating new user
+2013-11-12T21:33:06.248Z - info: creating new user
+2013-11-12T21:33:09.816Z - info: posting new conversations
+2013-11-12T21:33:09.817Z - info: creating conversation object sender : 52829e8c88bcf49e56000004 receiver: 52829e9288bcf49e56000005
+2013-11-12T21:49:31.083Z - info: Connecting to the mongoose db
+2013-11-12T21:49:31.381Z - info: Enter UserController constructor
+2013-11-12T21:49:31.398Z - info: Express app started on port 8000
+2013-11-12T21:49:37.139Z - info: posting new conversations
+2013-11-12T21:49:37.141Z - info: creating conversation object sender : 52829e8c88bcf49e56000004 receiver: 52829e9288bcf49e56000005
+2013-11-12T22:10:01.968Z - info: Connecting to the mongoose db
+2013-11-12T22:10:02.969Z - info: Enter UserController constructor
+2013-11-12T22:10:02.993Z - info: Express app started on port 8000
+2013-11-12T22:10:09.140Z - info: posting new conversations
+2013-11-12T22:10:09.143Z - info: creating conversation object sender : 52829e8c88bcf49e56000004 receiver: 52829e9288bcf49e56000005
+2013-11-12T22:15:52.620Z - info: Connecting to the mongoose db
+2013-11-12T22:15:53.253Z - info: Enter UserController constructor
+2013-11-12T22:15:53.278Z - info: Express app started on port 8000
+2013-11-12T22:15:58.578Z - info: posting new conversations
+2013-11-12T22:15:58.580Z - info: creating conversation object sender : 52829e8c88bcf49e56000004 receiver: 52829e9288bcf49e56000005
+2013-11-12T22:16:35.534Z - info: Connecting to the mongoose db
+2013-11-12T22:16:35.825Z - info: Enter UserController constructor
+2013-11-12T22:16:35.840Z - info: Express app started on port 8000
+2013-11-12T22:16:40.504Z - info: posting new conversations
+2013-11-12T22:16:40.506Z - info: creating conversation object sender : 52829e8c88bcf49e56000004 receiver: 52829e9288bcf49e56000005
+2013-11-12T22:18:44.659Z - info: Connecting to the mongoose db
+2013-11-12T22:18:44.938Z - info: Enter UserController constructor
+2013-11-12T22:18:44.953Z - info: Express app started on port 8000
+2013-11-12T22:18:50.707Z - info: posting new conversations
+2013-11-12T22:18:50.709Z - info: creating conversation object sender : 52829e8c88bcf49e56000004 receiver: 52829e9288bcf49e56000005
+2013-11-12T22:18:50.730Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:18:50.711Z","updatedAt":"2013-11-12T22:18:50.725Z","_id":"5282a94a1623d1415d000004","participants":[{"phoneNumber":"5185882891","_id":"52829e9288bcf49e56000005","__v":3,"devices":[],"conversations":["52829e9588bcf49e56000006","5282a271a18acb4259000004","5282a74176147c935c000004"]},{"phoneNumber":"8058074293","_id":"52829e8c88bcf49e56000004","__v":3,"devices":[],"conversations":["52829e9588bcf49e56000006","5282a271a18acb4259000004","5282a74176147c935c000004"]}],"messages":[{"_id":"5282a94a1623d1415d000005","messageReceiverId":"52829e9288bcf49e56000005","messageSenderId":"52829e8c88bcf49e56000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:18:50.725Z","createdAt":"2013-11-12T22:18:50.719Z","__v":0}]}
+2013-11-12T22:18:50.734Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:18:50.711Z","updatedAt":"2013-11-12T22:18:50.725Z","_id":"5282a94a1623d1415d000004","participants":[{"phoneNumber":"5185882891","_id":"52829e9288bcf49e56000005","__v":3,"devices":[],"conversations":["52829e9588bcf49e56000006","5282a271a18acb4259000004","5282a74176147c935c000004"]},{"phoneNumber":"8058074293","_id":"52829e8c88bcf49e56000004","__v":3,"devices":[],"conversations":["52829e9588bcf49e56000006","5282a271a18acb4259000004","5282a74176147c935c000004"]}],"messages":[{"_id":"5282a94a1623d1415d000005","messageReceiverId":"52829e9288bcf49e56000005","messageSenderId":"52829e8c88bcf49e56000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:18:50.725Z","createdAt":"2013-11-12T22:18:50.719Z","__v":0}]}
+2013-11-12T22:20:17.043Z - info: creating new user
+2013-11-12T22:20:20.120Z - info: creating new user
+2013-11-12T22:20:24.729Z - info: posting new conversations
+2013-11-12T22:20:24.730Z - info: creating conversation object sender : 5282a9a41623d1415d000007 receiver: 5282a9a11623d1415d000006
+2013-11-12T22:20:24.738Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:20:24.730Z","updatedAt":"2013-11-12T22:20:24.736Z","_id":"5282a9a81623d1415d000008","participants":[{"__v":0,"_id":"5282a9a11623d1415d000006","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"5282a9a41623d1415d000007","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"5282a9a81623d1415d000009","messageReceiverId":"5282a9a11623d1415d000006","messageSenderId":"5282a9a41623d1415d000007","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:20:24.736Z","createdAt":"2013-11-12T22:20:24.733Z","__v":0}]}
+2013-11-12T22:20:24.739Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:20:24.730Z","updatedAt":"2013-11-12T22:20:24.736Z","_id":"5282a9a81623d1415d000008","participants":[{"__v":0,"_id":"5282a9a11623d1415d000006","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"5282a9a41623d1415d000007","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"5282a9a81623d1415d000009","messageReceiverId":"5282a9a11623d1415d000006","messageSenderId":"5282a9a41623d1415d000007","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:20:24.736Z","createdAt":"2013-11-12T22:20:24.733Z","__v":0}]}
+2013-11-12T22:20:38.275Z - info: posting new conversations
+2013-11-12T22:20:38.276Z - info: creating conversation object sender : 5282a9a41623d1415d000007 receiver: 5282a9a11623d1415d000006
+2013-11-12T22:20:38.284Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:20:38.276Z","updatedAt":"2013-11-12T22:20:38.282Z","_id":"5282a9b61623d1415d00000a","participants":[{"__v":0,"_id":"5282a9a11623d1415d000006","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"5282a9a41623d1415d000007","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"5282a9b61623d1415d00000b","messageReceiverId":"5282a9a11623d1415d000006","messageSenderId":"5282a9a41623d1415d000007","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:20:38.282Z","createdAt":"2013-11-12T22:20:38.278Z","__v":0}]}
+2013-11-12T22:20:38.288Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:20:38.276Z","updatedAt":"2013-11-12T22:20:38.282Z","_id":"5282a9b61623d1415d00000a","participants":[{"__v":0,"_id":"5282a9a11623d1415d000006","phoneNumber":"5185882891","devices":[],"conversations":[]},{"__v":0,"_id":"5282a9a41623d1415d000007","phoneNumber":"8058074293","devices":[],"conversations":[]}],"messages":[{"_id":"5282a9b61623d1415d00000b","messageReceiverId":"5282a9a11623d1415d000006","messageSenderId":"5282a9a41623d1415d000007","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:20:38.282Z","createdAt":"2013-11-12T22:20:38.278Z","__v":0}]}
+2013-11-12T22:22:27.529Z - info: Connecting to the mongoose db
+2013-11-12T22:22:27.822Z - info: Enter UserController constructor
+2013-11-12T22:22:27.836Z - info: Express app started on port 8000
+2013-11-12T22:22:38.901Z - info: creating new user
+2013-11-12T22:22:42.558Z - info: creating new user
+2013-11-12T22:22:44.680Z - info: posting new conversations
+2013-11-12T22:22:44.682Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:23:31.055Z - info: Connecting to the mongoose db
+2013-11-12T22:23:31.361Z - info: Enter UserController constructor
+2013-11-12T22:23:31.375Z - info: Express app started on port 8000
+2013-11-12T22:23:35.013Z - info: posting new conversations
+2013-11-12T22:23:35.015Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:23:49.713Z - info: Connecting to the mongoose db
+2013-11-12T22:23:50.005Z - info: Enter UserController constructor
+2013-11-12T22:23:50.020Z - info: Express app started on port 8000
+2013-11-12T22:23:55.485Z - info: posting new conversations
+2013-11-12T22:23:55.487Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:24:09.465Z - info: Connecting to the mongoose db
+2013-11-12T22:24:09.753Z - info: Enter UserController constructor
+2013-11-12T22:24:09.769Z - info: Express app started on port 8000
+2013-11-12T22:24:13.844Z - info: posting new conversations
+2013-11-12T22:24:13.846Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:24:13.862Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:24:13.848Z","updatedAt":"2013-11-12T22:24:13.858Z","_id":"5282aa8d5c17a6055e000004","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282aa8d5c17a6055e000005","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:24:13.857Z","createdAt":"2013-11-12T22:24:13.854Z","__v":0}]}
+2013-11-12T22:26:55.885Z - info: Connecting to the mongoose db
+2013-11-12T22:26:56.165Z - info: Enter UserController constructor
+2013-11-12T22:26:56.180Z - info: Express app started on port 8000
+2013-11-12T22:27:01.660Z - info: posting new conversations
+2013-11-12T22:27:01.662Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:27:01.680Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:27:01.664Z","updatedAt":"2013-11-12T22:27:01.674Z","_id":"5282ab35307b1f335e000004","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282ab35307b1f335e000005","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:27:01.674Z","createdAt":"2013-11-12T22:27:01.670Z","__v":0}]}
+2013-11-12T22:27:21.227Z - info: Connecting to the mongoose db
+2013-11-12T22:27:21.532Z - info: Enter UserController constructor
+2013-11-12T22:27:21.558Z - info: Express app started on port 8000
+2013-11-12T22:27:30.495Z - info: posting new conversations
+2013-11-12T22:27:30.497Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:27:30.517Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:27:30.499Z","updatedAt":"2013-11-12T22:27:30.510Z","_id":"5282ab52a3122c3c5e000004","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282ab52a3122c3c5e000005","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:27:30.510Z","createdAt":"2013-11-12T22:27:30.505Z","__v":0}]}
+2013-11-12T22:28:09.912Z - info: posting new conversations
+2013-11-12T22:28:09.913Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:28:09.921Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:28:09.914Z","updatedAt":"2013-11-12T22:28:09.918Z","_id":"5282ab79a3122c3c5e000006","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282ab79a3122c3c5e000007","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 1 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:28:09.918Z","createdAt":"2013-11-12T22:28:09.915Z","__v":0}]}
+2013-11-12T22:28:28.350Z - info: posting new conversations
+2013-11-12T22:28:28.354Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:28:28.361Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:28:28.354Z","updatedAt":"2013-11-12T22:28:28.359Z","_id":"5282ab8ca3122c3c5e000008","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282ab8ca3122c3c5e000009","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 2 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:28:28.358Z","createdAt":"2013-11-12T22:28:28.356Z","__v":0}]}
+2013-11-12T22:29:16.633Z - info: posting new conversations
+2013-11-12T22:29:16.633Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:29:16.641Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:29:16.634Z","updatedAt":"2013-11-12T22:29:16.638Z","_id":"5282abbca3122c3c5e00000a","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282abbca3122c3c5e00000b","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 2 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:29:16.638Z","createdAt":"2013-11-12T22:29:16.635Z","__v":0}]}
+2013-11-12T22:30:05.565Z - info: Connecting to the mongoose db
+2013-11-12T22:30:05.852Z - info: Enter UserController constructor
+2013-11-12T22:30:05.867Z - info: Express app started on port 8000
+2013-11-12T22:30:11.646Z - info: posting new conversations
+2013-11-12T22:30:11.648Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:30:11.666Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:30:11.650Z","updatedAt":"2013-11-12T22:30:11.661Z","_id":"5282abf3fe2ea86b5e000004","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":1,"devices":[],"conversations":["5282aa34b5b744e35d000006"]}],"messages":[{"_id":"5282abf3fe2ea86b5e000005","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 2 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:30:11.660Z","createdAt":"2013-11-12T22:30:11.656Z","__v":0}]}
+2013-11-12T22:30:31.624Z - info: posting new conversations
+2013-11-12T22:30:31.625Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:30:31.632Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:30:31.625Z","updatedAt":"2013-11-12T22:30:31.630Z","_id":"5282ac07fe2ea86b5e000006","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":2,"devices":[],"conversations":["5282aa34b5b744e35d000006","5282abf3fe2ea86b5e000004"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":2,"devices":[],"conversations":["5282aa34b5b744e35d000006","5282abf3fe2ea86b5e000004"]}],"messages":[{"_id":"5282ac07fe2ea86b5e000007","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 3 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:30:31.630Z","createdAt":"2013-11-12T22:30:31.627Z","__v":0}]}
+2013-11-12T22:31:55.849Z - info: Connecting to the mongoose db
+2013-11-12T22:31:56.177Z - info: Enter UserController constructor
+2013-11-12T22:31:56.193Z - info: Express app started on port 8000
+2013-11-12T22:32:02.765Z - info: posting new conversations
+2013-11-12T22:32:02.767Z - info: creating conversation object sender : 5282aa2eb5b744e35d000004 receiver: 5282aa32b5b744e35d000005
+2013-11-12T22:32:02.788Z - info: creating conversation object{"__v":1,"createdAt":"2013-11-12T22:32:02.769Z","updatedAt":"2013-11-12T22:32:02.782Z","_id":"5282ac624d0274875e000004","participants":[{"phoneNumber":"5185882891","_id":"5282aa32b5b744e35d000005","__v":3,"devices":[],"conversations":["5282aa34b5b744e35d000006","5282abf3fe2ea86b5e000004","5282ac07fe2ea86b5e000006"]},{"phoneNumber":"8058074293","_id":"5282aa2eb5b744e35d000004","__v":3,"devices":[],"conversations":["5282aa34b5b744e35d000006","5282abf3fe2ea86b5e000004","5282ac07fe2ea86b5e000006"]}],"messages":[{"_id":"5282ac624d0274875e000005","messageReceiver":"5185882891","messageSender":"8058074293","messageReceiverId":"5282aa32b5b744e35d000005","messageSenderId":"5282aa2eb5b744e35d000004","messageContent":"Test message 3 from 8058074293 to 5185882891","updatedAt":"2013-11-12T22:32:02.782Z","createdAt":"2013-11-12T22:32:02.777Z","__v":0}]}

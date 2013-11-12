@@ -35,7 +35,7 @@ var conversationController = (function() {
 
 
 		var receiverNumber = req.body.receiverNumber;
-
+		var senderNumber = req.header('senderNumber');
 		if (receiverNumber===undefined){
 			var response = responseUtils.get(666, 'Receiver Number is missing in the request body', 'Error', false);
 			res.send(response);
@@ -46,32 +46,81 @@ var conversationController = (function() {
 					AppLogger.info("creating conversation object" + " sender : " + req.sender._id + " receiver: " + user._id);
 					var conversation = new Conversation();
 					conversation.save(function(err){
-							if (!err){
-								var message = new Message({
+
+
+						var message = new Message({
 									"messageContent": req.body.messageContent
-									,"messageSender": req.sender._id
-									,"messageReceiver": user._id
-								})
-								message.save(function (err) {
-								  conversation.messages.addToSet(message);
-								  conversation.participants.addToSet(user);
-								  conversation.participants.addToSet(req.sender);
-								  conversation.save(function(err){
-										AppLogger.info("creating conversation object" + JSON.stringify(conversation));
+									,"messageSenderId": req.sender._id
+									,"messageReceiverId": user._id
+									,"messageSender":  senderNumber
+									,"messageReceiver": receiverNumber
+					    })
+						message.save(function(err){
+							conversation.messages.addToSet(message);
+						    conversation.participants.addToSet(user);
+						    conversation.participants.addToSet(req.sender);
 
-										var response = responseUtils.get(200, conversation, 'Conversation', false);
-										res.send(response);
+							conversation.save(function(err){
+								AppLogger.info("creating conversation object" + JSON.stringify(conversation));
 
-									});
-								  user.conversations.addToSet(conversation);
-							      user.save(function(err){
 
-							      });
-								  req.sender.conversations.addToSet(conversation);
-								  req.sender.save();
 
-								})
-							}
+								var response = responseUtils.get(200, conversation, 'Conversation', false);
+								res.send(response);
+
+
+								user.conversations.addToSet(conversation);
+								user.save(function(err){
+									req.sender.conversations.addToSet(conversation);
+									req.sender.save();
+								});
+
+
+							});
+
+//							user.conversations.addToSet(conversation);
+//							user.update();
+//							user.save();
+
+//							req.sender.conversations.addToSet(conversation);
+//							req.sender.update();
+
+//							      user.save(function(err){
+//
+//							      });
+
+						})
+//							var response = responseUtils.get(200, conversation, 'Conversation', false);
+//							res.send(response);
+//
+//							if (!err){
+//								var message = new Message({
+//									"messageContent": req.body.messageContent
+//									,"messageSenderId": req.sender._id
+//									,"messageReceiverId": user._id
+////									,"messageSender":  senderNumber
+////									,"messageReceiver": receiverNumber
+//								})
+//								message.save(function (err) {
+//								  conversation.messages.addToSet(message);
+//								  conversation.participants.addToSet(user);
+//								  conversation.participants.addToSet(req.sender);
+//								  conversation.save(function(err){
+//										AppLogger.info("creating conversation object" + JSON.stringify(conversation));
+//
+//										var response = responseUtils.get(200, conversation, 'Conversation', false);
+//										res.send(response);
+//
+//									});
+//								  user.conversations.addToSet(conversation);
+//							      user.save(function(err){
+//
+//							      });
+//								  req.sender.conversations.addToSet(conversation);
+//								  req.sender.save();
+//
+//								})
+//							}
 						}
 					)
 
@@ -92,6 +141,7 @@ var conversationController = (function() {
 
 	ConversationController.prototype.addMessage = function(req, res){
 		var receiverNumber = req.body.receiverNumber;
+		var senderNumber = req.header('senderNumber');
 
 		if (receiverNumber===undefined){
 			var response = responseUtils.get(666, 'Receiver Number is missing in the request body', 'Error', false);
@@ -101,7 +151,10 @@ var conversationController = (function() {
 			   if (!err){
 				   var message = new Message({
 					   "messageContent": req.body.messageContent
-					   ,"messageSender": req.sender._id
+					   ,"messageSenderId": req.sender._id
+					   ,"messageSender":  senderNumber
+					   ,"messageReceiver": receiverNumber
+
 //					   ,"messageReceiver": user._id
 				   })
 				   message.save(function (err) {
