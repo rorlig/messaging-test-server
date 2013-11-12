@@ -30,7 +30,7 @@ var authentication_controller = (function() {
 
 
 		var senderNumber = req.header('senderNumber');
-		User.findOne({"phoneNumber": senderNumber}).exec(function(err, user){
+		User.findOne({"phoneNumber": senderNumber}).populate("conversations").exec(function(err, user){
 			if (user){
 				AppLogger.info("sending user : " + JSON.stringify(user));
 				req.sender = user;

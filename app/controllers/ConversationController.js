@@ -56,13 +56,20 @@ var conversationController = (function() {
 								  conversation.messages.addToSet(message);
 								  conversation.participants.addToSet(user);
 								  conversation.participants.addToSet(req.sender);
-									conversation.save(function(err){
+								  conversation.save(function(err){
 										AppLogger.info("creating conversation object" + JSON.stringify(conversation));
 
 										var response = responseUtils.get(200, conversation, 'Conversation', false);
 										res.send(response);
 
 									});
+								  user.conversations.addToSet(conversation);
+							      user.save(function(err){
+
+							      });
+								  req.sender.conversations.addToSet(conversation);
+								  req.sender.save();
+
 								})
 							}
 						}
