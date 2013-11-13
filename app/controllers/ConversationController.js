@@ -143,17 +143,17 @@ var conversationController = (function() {
 		var receiverNumber = req.body.receiverNumber;
 		var senderNumber = req.header('senderNumber');
 
-		if (receiverNumber===undefined){
-			var response = responseUtils.get(666, 'Receiver Number is missing in the request body', 'Error', false);
-			res.send(response);
-		} else {
+//		if (receiverNumber===undefined){
+//			var response = responseUtils.get(666, 'Receiver Number is missing in the request body', 'Error', false);
+//			res.send(response);
+//		} else {
 		   Conversation.findById(req.params.conversationId, function (err, conversation){
 			   if (!err){
 				   var message = new Message({
 					   "messageContent": req.body.messageContent
 					   ,"messageSenderId": req.sender._id
 					   ,"messageSender":  senderNumber
-					   ,"messageReceiver": receiverNumber
+//					   ,"messageReceiver": receiverNumber
 
 //					   ,"messageReceiver": user._id
 				   })
@@ -170,7 +170,7 @@ var conversationController = (function() {
 				   })
 			   }
 		   })
-		}
+//		}
 
 	}
 
