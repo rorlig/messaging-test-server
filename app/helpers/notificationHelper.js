@@ -44,7 +44,7 @@ var notificationHelper = (function() {
 	/* 
 	 *  Notification to the user when someone checks into the same event as the user...
 	 */
-	NotificationHelper.prototype.sendMessageNotification = function(users, sender){
+	NotificationHelper.prototype.sendMessageNotification = function(users, messageSender){
 
 		_.each(users, function(user){
 			console.log('sending notification to user: ' + JSON.stringify(user.email));
@@ -61,7 +61,7 @@ var notificationHelper = (function() {
 			});
 			var sender = new gcm.Sender(config.gcm.serverAccessKey);
 			var registrationIds = [];
-			if (user._id !== sender._id) {
+			if (user._id != messageSender._id) {
 				_.each(user.devices, function(device){
 					//send notification to each device..
 					console.log(
