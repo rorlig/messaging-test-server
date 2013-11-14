@@ -11,7 +11,7 @@ var ResponseUtils  = require('../common/ResponseUtils');
 var responseUtils = new ResponseUtils();
 var AppLogger = require('../common/AppLogger');
 
-var NotificationHelper = require("../helper/NotificationHelper");
+var NotificationHelper = require("../helpers/notificationHelper");
 var notificationHelper = new  NotificationHelper();
 
 var conversationController = (function() {
