@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6fa865d-8a4e-4789-9f0a-6c384aee04f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ConversationController.js" afterPath="$PROJECT_DIR$/app/controllers/ConversationController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/notificationHelper.js" afterPath="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
     </list>
     <ignored path="messaging-test-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConversationController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ConversationController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="401" selection-end="401" vertical-scroll-proportion="0.46478873" vertical-offset="0" max-vertical-offset="3195">
+            <state line="79" column="74" selection-start="2485" selection-end="2508" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="3195">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notificationHelper.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="notificationHelper.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="35" selection-start="4182" selection-end="4200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
+            <state line="60" column="40" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.47076023" vertical-offset="739" max-vertical-offset="2355">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -193,8 +193,8 @@
         <option value="$PROJECT_DIR$/app/models/Message.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
-        <option value="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
         <option value="$PROJECT_DIR$/app/controllers/ConversationController.js" />
+        <option value="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
       </list>
     </option>
   </component>
@@ -622,12 +622,12 @@
       <workItem from="1384038266795" duration="13397000" />
       <workItem from="1384205672760" duration="8399000" />
       <workItem from="1384303903223" duration="577000" />
-      <workItem from="1384315368575" duration="7795000" />
+      <workItem from="1384315368575" duration="7878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30232000" />
+    <option name="totallyTimeSpent" value="30315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="698" extended-state="0" />
@@ -652,7 +652,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6713681" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6713681" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -984,15 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="35" selection-start="4182" selection-end="4200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="35" selection-start="1216" selection-end="1232" vertical-scroll-proportion="-6.5" vertical-offset="476" max-vertical-offset="2175">
@@ -1009,8 +1000,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="401" selection-end="401" vertical-scroll-proportion="0.46478873" vertical-offset="0" max-vertical-offset="3195">
+        <state line="79" column="74" selection-start="2485" selection-end="2508" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="3195">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="40" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.47076023" vertical-offset="739" max-vertical-offset="2355">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

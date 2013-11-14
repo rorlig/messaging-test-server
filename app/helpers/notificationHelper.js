@@ -61,7 +61,7 @@ var notificationHelper = (function() {
 			});
 			var sender = new gcm.Sender(config.gcm.serverAccessKey);
 			var registrationIds = [];
-			if (user._id !== newUser._id) {
+			if (user._id !== sender._id) {
 				_.each(user.devices, function(device){
 					//send notification to each device..
 					console.log(
