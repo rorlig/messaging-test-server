@@ -77,7 +77,7 @@ var conversationController = (function() {
 									req.sender.save();
 								});
 
-								notificationHelper.sendMessageNotification(conversation.participants, req.sender);
+								notificationHelper.sendMessageNotification(conversation.participants, req.sender, "conversation",conversation._id);
 
 
 							});
@@ -170,7 +170,8 @@ var conversationController = (function() {
 						   var response = responseUtils.get(200, conversation, 'Conversation', false);
 						   res.send(response);
 
-						   notificationHelper.sendMessageNotification(conversation.participants, req.sender);
+						   //new message.. need to send conversation id also?
+						   notificationHelper.sendMessageNotification(conversation.participants, req.sender, "message",conversation._id);
 
 
 					   });

@@ -44,7 +44,7 @@ var notificationHelper = (function() {
 	/* 
 	 *  Notification to the user when someone checks into the same event as the user...
 	 */
-	NotificationHelper.prototype.sendMessageNotification = function(users, messageSender){
+	NotificationHelper.prototype.sendMessageNotification = function(users, messageSender, type, id ){
 
 		_.each(users, function(user){
 			console.log('sending notification to user: ' + JSON.stringify(user.email));
@@ -55,8 +55,8 @@ var notificationHelper = (function() {
 				delayWhileIdle: true,
 				timeToLive: 3,
 				data: {
-					key1: 'message1',
-					key2: 'message2'
+					type: type,
+					id: id
 				}
 			});
 			var sender = new gcm.Sender(config.gcm.serverAccessKey);
