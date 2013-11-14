@@ -72,7 +72,7 @@ var userController = (function() {
 			    res.send(response);
  			 } else {
  			 	console.log('user not found in the db  ' + user);
- 			 	userObj = req.user;
+ 			 	userObj = req.sender;
  			 	deviceObj = new Device(req.body);
  			 	userObj.devices.addToSet(deviceObj);
  			 	userObj.save();
