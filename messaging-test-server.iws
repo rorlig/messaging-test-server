@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6fa865d-8a4e-4789-9f0a-6c384aee04f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.js" afterPath="$PROJECT_DIR$/app/controllers/UserController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/notificationHelper.js" afterPath="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AuthenticationController.js" afterPath="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
     </list>
     <ignored path="messaging-test-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="49" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.43399638" vertical-offset="720" max-vertical-offset="3450">
+            <state line="69" column="108" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="3450">
               <folding />
             </state>
           </provider>
@@ -117,7 +116,7 @@
       <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="34" selection-start="2965" selection-end="2969" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2175">
+            <state line="54" column="46" selection-start="1463" selection-end="1478" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2175">
               <folding />
             </state>
           </provider>
@@ -132,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AuthenticationController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="34" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1410">
+            <state line="35" column="39" selection-start="854" selection-end="854" vertical-scroll-proportion="0.522604" vertical-offset="236" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -189,11 +188,11 @@
         <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthorizationController.js" />
         <option value="$PROJECT_DIR$/app/models/Conversation.js" />
-        <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
         <option value="$PROJECT_DIR$/app/models/Message.js" />
         <option value="$PROJECT_DIR$/app/controllers/ConversationController.js" />
         <option value="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
+        <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
       </list>
     </option>
   </component>
@@ -603,12 +602,12 @@
       <workItem from="1384038266795" duration="13397000" />
       <workItem from="1384205672760" duration="8399000" />
       <workItem from="1384303903223" duration="577000" />
-      <workItem from="1384315368575" duration="6818000" />
+      <workItem from="1384315368575" duration="6904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29255000" />
+    <option name="totallyTimeSpent" value="29341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="698" extended-state="0" />
@@ -942,20 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="34" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="34" selection-start="2965" selection-end="2969" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Message.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="34" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="990">
@@ -988,7 +973,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="49" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.43399638" vertical-offset="720" max-vertical-offset="3450">
+        <state line="69" column="108" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="3450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="46" selection-start="1463" selection-end="1478" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="39" selection-start="854" selection-end="854" vertical-scroll-proportion="0.522604" vertical-offset="236" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
