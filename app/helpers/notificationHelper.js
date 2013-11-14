@@ -9,14 +9,14 @@ var config = require('../../config/config')[env];
 var _ = require('underscore');
 var regId = 'APA91bHzmQe6Hl9-gut-hPy-ANh1kZR7O0sB-fe-oIuZ5luOuLfR1LH_qgG9zkeIl1LtAEQzwZfR3Dw3CwA-k10A7Myi96xM7UiKd0fjLmzQVK6oe_CbaTes1VusOzmadnMDn3yuR4kUwac3iw2Db23Ye07Z2M-GPg';
 
-onmessage = function(e) {
-		console.log('received message ' + JSON.stringify(e));
-   		postMessage({ test : 'this is a test' });
-};
-
-onclose = function() {
-	    sys.debug('Worker shuttting down.');
-};
+//onmessage = function(e) {
+//		console.log('received message ' + JSON.stringify(e));
+//   		postMessage({ test : 'this is a test' });
+//};
+//
+//onclose = function() {
+//	    sys.debug('Worker shuttting down.');
+//};
 var notificationHelper = (function() {
 
 	/* 
@@ -27,14 +27,14 @@ var notificationHelper = (function() {
 		this.sender = new gcm.Sender(config.gcm.serverAccessKey);
 	}
 
-	NotificationHelper.prototype.onmessage = function(e) {
-		console.log('received message ' + JSON.stringify(e));
-   		postMessage({ test : 'this is a test' });
-	};
+//	NotificationHelper.prototype.onmessage = function(e) {
+//		console.log('received message ' + JSON.stringify(e));
+//   		postMessage({ test : 'this is a test' });
+//	};
 
-	NotificationHelper.prototype.onclose = function() {
-	    sys.debug('Worker shuttting down.');
-	};
+//	NotificationHelper.prototype.onclose = function() {
+//	    sys.debug('Worker shuttting down.');
+//	};
 	/*
 	 * Test method
 	*/
@@ -44,9 +44,9 @@ var notificationHelper = (function() {
 	/* 
 	 *  Notification to the user when someone checks into the same event as the user...
 	 */
-	NotificationHelper.prototype.userCheckinNotification = function(users, newUser, callback){
+	NotificationHelper.prototype.sendMessageNotification = function(users, newUser, callback){
 		console.log('NotificationHelper:userCheckinNotification');
-		i = 0; 
+		i = 0;
 		//todo ask rajan on async processing..
 		while (i<100000000000) {
 			i++;
@@ -60,12 +60,12 @@ var notificationHelper = (function() {
 					//send notification to each device..
 					console.log(
 						' device: ' + device.deviceRegistrationId);
-					//todo actual notification .. 
+					//todo actual notification ..
 					//exclude the current user ...
-	 			})	
+	 			})
 			}
 		})
-		// callback('done'); 
+		// callback('done');
 
 	}
 

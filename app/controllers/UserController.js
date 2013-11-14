@@ -62,10 +62,10 @@ var userController = (function() {
 
  	UserController.prototype.addDevice = function(req, res) {
  		console.log('UserController::addDevice');
- 		var userId = req.header('UserId');
+ 		var senderNumber = req.header('senderNumber');
  		console.log('request body ' + JSON.stringify(req.body));
  		var deviceRegistrationId = req.body.deviceRegistrationId;
- 		User.findOne({"_id": userId, "devices.deviceRegistrationId": deviceRegistrationId}).exec(function(err, user) {
+ 		User.findOne({"phoneNumber": senderNumber, "devices.deviceRegistrationId": deviceRegistrationId}).exec(function(err, user) {
  			 if (user) {
  			 	console.log('contains device - do nothing ');
 			    var response = responseUtils.get(666, 'Device Already Registered', 'Error', false);
