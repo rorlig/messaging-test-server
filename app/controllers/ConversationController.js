@@ -170,6 +170,9 @@ var conversationController = (function() {
 						   var response = responseUtils.get(200, conversation, 'Conversation', false);
 						   res.send(response);
 
+						   notificationHelper.sendMessageNotification(conversation.participants, req.sender);
+
+
 					   });
 				   })
 			   }
