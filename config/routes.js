@@ -96,9 +96,19 @@ module.exports = function (app) {
   app.get('/api/v1/conversation'
       ,authenticationController.isAuthenticated
 	  ,function(req, res){
+		  conversationController.get(req,res);
 
-	}
+	  }
   );
+
+	/* get conversations for the user */
+	app.get('/api/v1/conversation/:conversationId'
+		,authenticationController.isAuthenticated
+		,function(req, res){
+			conversationController.getConversation(req,res);
+
+		}
+	);
 
   /* post conversation */
   app.post('/api/v1/conversation'

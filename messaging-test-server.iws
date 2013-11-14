@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6fa865d-8a4e-4789-9f0a-6c384aee04f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ConversationController.js" afterPath="$PROJECT_DIR$/app/controllers/ConversationController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/notificationHelper.js" afterPath="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.js" afterPath="$PROJECT_DIR$/config/routes.js" />
     </list>
     <ignored path="messaging-test-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConversationController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConversationController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="69" selection-start="5422" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="2327" max-vertical-offset="3255">
+            <state line="34" column="37" selection-start="960" selection-end="960" vertical-scroll-proportion="0.33333334" vertical-offset="366" max-vertical-offset="3435">
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notificationHelper.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="notificationHelper.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="20" selection-start="1735" selection-end="1739" vertical-scroll-proportion="0.55263156" vertical-offset="651" max-vertical-offset="2355">
+            <state line="57" column="55" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="2355">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -128,7 +128,7 @@
       <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="35" selection-start="1216" selection-end="1232" vertical-scroll-proportion="-6.5" vertical-offset="476" max-vertical-offset="2175">
+            <state line="107" column="50" selection-start="2982" selection-end="2997" vertical-scroll-proportion="-3.4230769" vertical-offset="1516" max-vertical-offset="2325">
               <folding />
             </state>
           </provider>
@@ -188,7 +188,6 @@
         <option value="$PROJECT_DIR$/app/controllers/MessageController.js" />
         <option value="$PROJECT_DIR$/node_modules/mongoose-timestamp/index.js" />
         <option value="$PROJECT_DIR$/app/models/User.js" />
-        <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthorizationController.js" />
         <option value="$PROJECT_DIR$/app/models/Conversation.js" />
         <option value="$PROJECT_DIR$/app/models/Message.js" />
@@ -196,6 +195,7 @@
         <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
         <option value="$PROJECT_DIR$/app/controllers/ConversationController.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
       </list>
     </option>
   </component>
@@ -249,6 +249,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="messaging-test-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messaging-test-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messaging-test-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,12 +637,12 @@
       <workItem from="1384038266795" duration="13397000" />
       <workItem from="1384205672760" duration="8399000" />
       <workItem from="1384303903223" duration="577000" />
-      <workItem from="1384315368575" duration="11431000" />
+      <workItem from="1384315368575" duration="14983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33868000" />
+    <option name="totallyTimeSpent" value="37420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="698" extended-state="0" />
@@ -985,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="1216" selection-end="1232" vertical-scroll-proportion="-6.5" vertical-offset="476" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="215" column="37" selection-start="7807" selection-end="7815" vertical-scroll-proportion="0.331307" vertical-offset="3071" max-vertical-offset="3450">
@@ -999,19 +1006,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
+    <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="69" selection-start="5422" selection-end="5445" vertical-scroll-proportion="0.0" vertical-offset="2327" max-vertical-offset="3255">
+        <state line="57" column="55" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="2355">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="50" selection-start="2982" selection-end="2997" vertical-scroll-proportion="-3.4230769" vertical-offset="1516" max-vertical-offset="2325">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="20" selection-start="1735" selection-end="1739" vertical-scroll-proportion="0.55263156" vertical-offset="651" max-vertical-offset="2355">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="34" column="37" selection-start="960" selection-end="960" vertical-scroll-proportion="0.33333334" vertical-offset="366" max-vertical-offset="3435">
+          <folding />
         </state>
       </provider>
     </entry>

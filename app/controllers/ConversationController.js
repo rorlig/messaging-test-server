@@ -21,10 +21,22 @@ var conversationController = (function() {
 
 	}
 
+	// returns all the conversations for the user
 	ConversationController.prototype.get = function(req, res){
 		//returns conversations for the user
 		Conversation.find({}).exec(function(err, conversations){
+			var response = responseUtils.get(200, conversations, 'Conversation', false);
+			res.send(response);
+		})
 
+	}
+
+	// returns all the conversations for the user
+	ConversationController.prototype.getConversation = function(req, res){
+		//returns conversations for the user
+		Conversation.findOne({_id: req.params.conversationId}).exec(function(err, conversation){
+			var response = responseUtils.get(200, conversation, 'Conversation', false);
+			res.send(response);
 		})
 
 	}
