@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6fa865d-8a4e-4789-9f0a-6c384aee04f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ConversationController.js" afterPath="$PROJECT_DIR$/app/controllers/ConversationController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/notificationHelper.js" afterPath="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
-    </list>
+    <list default="true" id="d6fa865d-8a4e-4789-9f0a-6c384aee04f4" name="Default" comment="" />
     <ignored path="messaging-test-server.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,19 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConversationController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConversationController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="74" selection-start="2484" selection-end="2507" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3195">
+            <state line="13" column="62" selection-start="417" selection-end="417" vertical-scroll-proportion="0.2983725" vertical-offset="0" max-vertical-offset="3195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notificationHelper.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="notificationHelper.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="15" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.8888889" vertical-offset="720" max-vertical-offset="2355">
+            <state line="80" column="15" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -192,8 +189,8 @@
         <option value="$PROJECT_DIR$/app/models/Message.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
-        <option value="$PROJECT_DIR$/app/controllers/ConversationController.js" />
         <option value="$PROJECT_DIR$/app/helpers/notificationHelper.js" />
+        <option value="$PROJECT_DIR$/app/controllers/ConversationController.js" />
       </list>
     </option>
   </component>
@@ -603,12 +600,12 @@
       <workItem from="1384038266795" duration="13397000" />
       <workItem from="1384205672760" duration="8399000" />
       <workItem from="1384303903223" duration="577000" />
-      <workItem from="1384315368575" duration="7412000" />
+      <workItem from="1384315368575" duration="7511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29849000" />
+    <option name="totallyTimeSpent" value="29948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="698" extended-state="0" />
@@ -977,19 +974,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="74" selection-start="2484" selection-end="2507" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/notificationHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="15" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.8888889" vertical-offset="720" max-vertical-offset="2355">
+        <state line="80" column="15" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ConversationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="62" selection-start="417" selection-end="417" vertical-scroll-proportion="0.2983725" vertical-offset="0" max-vertical-offset="3195">
+          <folding />
         </state>
       </provider>
     </entry>
