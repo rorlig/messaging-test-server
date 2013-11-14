@@ -44,26 +44,41 @@ var notificationHelper = (function() {
 	/* 
 	 *  Notification to the user when someone checks into the same event as the user...
 	 */
-	NotificationHelper.prototype.sendMessageNotification = function(users, newUser, callback){
-		console.log('NotificationHelper:userCheckinNotification');
-		i = 0;
-		//todo ask rajan on async processing..
-		while (i<100000000000) {
-			i++;
-		}
+	NotificationHelper.prototype.sendMessageNotification = function(users, sender){
+
 		_.each(users, function(user){
 			console.log('sending notification to user: ' + JSON.stringify(user.email));
 			console.log('devices: ' + JSON.stringify(user.devices));
 			console.log('user id: ' + user._id);
+			var message = new gcm.Message({
+				collapseKey: 'demo',
+				delayWhileIdle: true,
+				timeToLive: 3,
+				data: {
+					key1: 'message1',
+					key2: 'message2'
+				}
+			});
+			var sender = new gcm.Sender(config.gcm.serverAccessKey);
+			var registrationIds = [];
 			if (user._id !== newUser._id) {
 				_.each(user.devices, function(device){
 					//send notification to each device..
 					console.log(
 						' device: ' + device.deviceRegistrationId);
+
+					registrationIds.push(device.deviceRegistrationId);
+
+
 					//todo actual notification ..
 					//exclude the current user ...
 	 			})
 			}
+			sender.send(message, registrationIds, 4, function (err, result) {
+				console.log(result);
+				console.log(" " + err);
+
+			});
 		})
 		// callback('done');
 

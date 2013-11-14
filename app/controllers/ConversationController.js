@@ -11,6 +11,8 @@ var ResponseUtils  = require('../common/ResponseUtils');
 var responseUtils = new ResponseUtils();
 var AppLogger = require('../common/AppLogger');
 
+var NotificationHelper = require("../helper/notificationHelper");
+var notificationHelper = new  NotificationHelper();
 
 var conversationController = (function() {
 
@@ -74,6 +76,8 @@ var conversationController = (function() {
 									req.sender.conversations.addToSet(conversation);
 									req.sender.save();
 								});
+
+								notificationHelper.sendMessageNotification(conversation.participants, req.sender);
 
 
 							});
