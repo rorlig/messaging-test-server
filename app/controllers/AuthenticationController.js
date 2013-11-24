@@ -29,6 +29,8 @@ var authentication_controller = (function() {
 	AuthenticationController.prototype.isAuthenticated = function (req,res,next) {
 
 
+		AppLogger.info("AuthenticationController:isAuthenticated()");
+
 		var senderNumber = req.header('senderNumber');
 		User.findOne({"phoneNumber": senderNumber}).populate("conversations").exec(function(err, user){
 			if (user){
