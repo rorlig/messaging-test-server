@@ -43,7 +43,7 @@ var userController = (function() {
 	        var response = responseUtils.get(666, 'phoneNumber is missing in the request', 'Error', false);
 	        res.send(response);
         } else {
-	        User.findOne({"phoneNumber": phoneNumber}).exec(function(err, user){
+	        User.findOne({"phoneNumber": phoneNumber}).populate("conversations").exec(function(err, user){
 		        if (!user){
 			         AppLogger.info("creating new user");
 					 user = new User({"phoneNumber": phoneNumber});
