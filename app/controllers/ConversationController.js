@@ -48,6 +48,8 @@ var conversationController = (function() {
 	ConversationController.prototype.post = function(req, res){
 
 
+		AppLogger.info("conversation controller new conversation");
+
 		var receiverNumber = req.body.receiverNumber;
 		var senderNumber = req.header('senderNumber');
 
