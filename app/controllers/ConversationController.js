@@ -50,7 +50,10 @@ var conversationController = (function() {
 
 		var receiverNumber = req.body.receiverNumber;
 		var senderNumber = req.header('senderNumber');
+
+		AppLogger.info("receiverNumber:" + receiverNumber + " senderNumber:" + senderNumber);
 		if (receiverNumber===undefined){
+			AppLogger.info("receiverNumber is undefined");
 			var response = responseUtils.get(666, 'Receiver Number is missing in the request body', 'Error', false);
 			res.send(response);
 		} else {
